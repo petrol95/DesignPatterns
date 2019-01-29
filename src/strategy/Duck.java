@@ -1,4 +1,4 @@
-package Strategy;
+package strategy;
 
 public abstract class Duck {
 
@@ -6,6 +6,14 @@ public abstract class Duck {
     QuackBehavior quackBehavior;
 
     public Duck() {
+    }
+
+    public void setFlyBehavior(FlyBehavior fb) {
+        flyBehavior = fb;
+    }
+
+    public void setQuackBehavior(QuackBehavior qb) {
+        quackBehavior = qb;
     }
 
     public abstract void display();
@@ -22,11 +30,4 @@ public abstract class Duck {
         System.out.println("All ducks float, even decoys!");
     }
 
-    public void setFlyBehavior(FlyBehavior fb) {
-        flyBehavior = fb;
-    }
-
-    public void setQuackBehavior(QuackBehavior qb) {
-        quackBehavior = qb;
-    }
 }
