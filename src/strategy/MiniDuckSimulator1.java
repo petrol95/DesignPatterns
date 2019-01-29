@@ -1,6 +1,6 @@
-package Strategy;
+package strategy;
 
-public class MiniDuckSimulator {
+public class MiniDuckSimulator1 {
 
     public static void main(String[] args) {
 
