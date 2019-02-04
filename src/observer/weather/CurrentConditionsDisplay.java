@@ -1,4 +1,4 @@
-package observer;
+package observer.weather;
 
 public class CurrentConditionsDisplay implements Observer, DisplayElement {
 
