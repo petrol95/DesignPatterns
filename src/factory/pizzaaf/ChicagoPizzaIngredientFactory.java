@@ -1,7 +1,6 @@
 package factory.pizzaaf;
 
-public class ChicagoPizzaIngredientFactory
-        implements PizzaIngredientFactory
+public class ChicagoPizzaIngredientFactory implements PizzaIngredientFactory
 {
 
     public Dough createDough() {
@@ -17,9 +16,7 @@ public class ChicagoPizzaIngredientFactory
     }
 
     public Veggies[] createVeggies() {
-        Veggies veggies[] = { new BlackOlives(),
-                new Spinach(),
-                new Eggplant() };
+        Veggies veggies[] = { new BlackOlives(), new Spinach(), new Eggplant() };
         return veggies;
     }
 
