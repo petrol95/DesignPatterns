@@ -1,4 +1,4 @@
-package headfirst.command.simpleremote;
+package command.simpleremote;
 
 import java.util.*;
 
