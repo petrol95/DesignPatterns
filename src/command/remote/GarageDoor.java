@@ -8,15 +8,15 @@ public class GarageDoor {
 	}
 
 	public void up() {
-		System.out.println(location + " garage Door is Up");
+		System.out.println(location + " garage door is up");
 	}
 
 	public void down() {
-		System.out.println(location + " garage Door is Down");
+		System.out.println(location + " garage door is down");
 	}
 
 	public void stop() {
-		System.out.println(location + " garage Door is Stopped");
+		System.out.println(location + " garage door is stopped");
 	}
 
 	public void lightOn() {
