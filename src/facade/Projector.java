@@ -25,7 +25,7 @@ public class Projector {
 		System.out.println(description + " in tv mode (4x3 aspect ratio)");
 	}
   
-        public String toString() {
-                return description;
-        }
+	public String toString() {
+		return description;
+	}
 }

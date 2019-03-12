@@ -18,9 +18,8 @@ public class PopcornPopper {
 	public void pop() {
 		System.out.println(description + " popping popcorn!");
 	}
- 
-  
-        public String toString() {
-                return description;
-        }
+
+	public String toString() {
+		return description;
+	}
 }

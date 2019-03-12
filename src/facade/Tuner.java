@@ -7,6 +7,7 @@ public class Tuner {
 	
 	public Tuner(String description, Amplifier amplifier) {
 		this.description = description;
+		this.amplifier = amplifier;
 	}
  
 	public void on() {
@@ -30,7 +31,7 @@ public class Tuner {
 		System.out.println(description + " setting FM mode");
 	}
   
-        public String toString() {
-                return description;
-        }
+	public String toString() {
+		return description;
+	}
 }

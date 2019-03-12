@@ -19,10 +19,10 @@ public class DvdPlayer {
 		System.out.println(description + " off");
 	}
 
-        public void eject() {
+	public void eject() {
 		movie = null;
-                System.out.println(description + " eject");
-        }
+		System.out.println(description + " eject");
+	}
  
 	public void play(String movie) {
 		this.movie = movie;
